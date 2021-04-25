@@ -6,7 +6,8 @@
 
 **Task 2**
 
- The code for this task is present in code folder with the name - task2.ipynb and create xml.py. Example xml is placed in xml folder and the model is present in model folder.
+ The code for this task is present in code folder with the name - task2.ipynb and create xml.py. Example xml is placed in xml folder.
+ You can get the model file from here - https://drive.google.com/file/d/1pPAsOaYTSElMAKI97yv0paZ-CdUPOxpM/view?usp=sharing
  Process - 
  
   I used create xml.py to create xmls for all the images that have heads. Example xml is present in the xml folder.
@@ -17,3 +18,7 @@
  
   By using more images, we can have better model for this task.
   We can use face detectors like Haarcascade to detect faces and then run this model on the cropped faces.
+  
+ **Important Question - Evaluation Metric**
+ 
+ As the problem at hand is a object detection task, I will use **mAP**(mean average precision) metric for evaluation. The reason being, average precision gives you precision at different threshold. And by defination, it gives how many of the predictions are correct and that is what we need to check.
