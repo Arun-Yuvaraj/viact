@@ -17,7 +17,7 @@
  Future works (Due to time constraints, I was not able to incorporate below points) -
  
   By using more images, we can have better model for this task.
-  We can use face detectors like Haarcascade to detect faces and then run this model on the cropped faces.
+  By using different types of augmentations.
   
  **Important Question - Evaluation Metric**
  
