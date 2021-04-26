@@ -14,6 +14,8 @@
   I converted all the xml's to json for training a detectron model.
   The code for training detectron model and sample output is given in task2.ipynb
   
+  **mAP at 50% is 81%**
+  You can check AP for different threshold in task2.ipynb
  Future works (Due to time constraints, I was not able to incorporate below points) -
  
   By using more images, we can have better model for this task.
