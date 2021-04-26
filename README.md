@@ -11,6 +11,7 @@
  Process - 
  
   I used create xml.py to create xmls for all the images that have heads. Example xml is present in the xml folder.
+  I have used 4 classes for this task - **Helmet and Mask present, Safety Helmet Present, Mask available, No Helmet and Mask present**
   I converted all the xml's to json for training a detectron model.
   The code for training detectron model and sample output is given in task2.ipynb
   
